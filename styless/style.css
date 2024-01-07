@@ -77,3 +77,135 @@ padding: 10px;
 }
 
 /* Categories part End */
+
+/* Midnight part Start */
+
+    #midnight{
+        padding: 100px 0px;
+    }
+    .container{
+        max-width: 1040px;
+    }
+    .midnight{
+        background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0px 100px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .midnight-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .midnight-content .midnight-one{
+        padding: 50px;
+    }
+    .midnight-content .midnight-title{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+}
+.midnight-content .midnight-info{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 24px;
+}
+.submit{
+margin-top: 48px;
+color: #FFF;
+background-color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+border: none;
+border-radius: 10px;
+padding: 16px 32px;
+}
+.midnight-content .midnight-two img{
+    padding: 50px;
+}
+
+/* Midnight part End */
+
+/* Location part Start */
+
+#location{
+    
+}
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.location{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+     rgba(255, 0, 0, 0.05);
+    padding: 100px 100px 100px 100px;
+    border-radius: 10px;
+}
+.location-content{
+    margin: 0 auto;
+    text-align: center;
+}
+.location-content .location-par{
+text-align: center;
+font-size: 30px;
+font-weight: 600;
+text-transform: capitalize;
+}
+.location-content  span{
+    color: #F00;
+}
+
+/* Location part End */
+
+/* Portfolio part start */
+
+#portfolio{
+
+}
+.container{
+    max-width: 1024px;
+}
+.portfolio-content{
+    background-color: aqua;
+}
+.portfolio-content .portfolio-title{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 16px;
+}
+.portfolio-content .portfolio-title-two{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.portfolio-content .portfolio-p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+margin-top: 10px;
+}
+.portfolio-img{
+    display: flex;
+}
+/* Portfolio part End */
