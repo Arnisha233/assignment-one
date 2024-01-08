@@ -187,26 +187,22 @@ text-transform: capitalize;
     max-width: 1040px;
 }
 .comingsoon-content{
-    background-color: #fbad50;
     display: flex;
 }
 .comingsoon-first-col{
-    margin: 50px auto;
+    margin: 60px auto;
+    width: 56%;
 } 
-.coming title h3{
+.coming title{
 color: #F00;
 text-align: center;
 font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
 }
 .coming-title-two{
-    color: #070211;
+color: #070211;
 font-family: Merriweather;
 font-size: 48px;
 font-style: normal;
-font-weight: 900;
 line-height: normal;
 text-transform: capitalize;
 }
@@ -220,6 +216,31 @@ line-height: 32px; /* 160% */
 }
 .comingsoon-second-content .coming-border{
     
+}
+.coming-border{
+    border-radius: 463px;
+border: 15px solid #F00;
+}
+.radious{
+    padding: 15px;
+}
+.coomingsoon-third-content{
+    margin: 60px auto;
+    text-align: center;
+}
+.coming-year{
+color: #F00;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.coming-per{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
 }
 
 
