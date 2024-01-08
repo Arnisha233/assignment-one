@@ -10,7 +10,6 @@
 /* genarel tag start */
 
  .container{
-    
     max-width: 1024px;
     margin: 0 auto;
  }
@@ -172,21 +171,122 @@ text-transform: capitalize;
 
 /*  subscribe part start */
 #subscribe{
-    width: 1230px;
-  height: 616px;
-  margin: auto;
+    padding: 100px;
 }
-{
+
 .container {
-        max-width: 1024px;
-        width: 75%;
-        margin: 0 auto;
-      }
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.subscription-bag {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px;
 }
 
 .subscribe-text{
-    background-color: black;
-    
+    margin: 0 auto;
+    align-items: center;
+}
+.subscribe-title{
+color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 40px;
+}
+.subscribe-par{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width: 896px;
+margin: 0 auto;
+margin-top: 22px;
+}
+label{
+    position: relative;
+}
+input{
+    background-color: aqua;
+    width: 648px;
+    height: 72px;
+    background: #FFF;
+    border-right: 0px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+.button{
+width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border-left: 0px;
+
 }
 
+
 /* subscribe part end */
+
+/* footer part start */
+
+footer{
+        background-color: rgb(201, 171, 171);
+        padding: 100px 230px;
+      }
+
+.footer-content{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-col-one{
+   width: 485px;
+}
+.footer-info{
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.footer-col-two{
+    width: 325px;
+}
+.footer-col-two  .footer-contact{
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 16px;
+}
+.social-icon{
+    display: block;
+    text-align: center;
+    width: 64px;
+  height: 64px;
+  margin: 50px auto;
+}
+.social-icon ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* footer part End */
