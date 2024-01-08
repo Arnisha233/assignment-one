@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@400;700;800&display=swap');
 
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
@@ -26,10 +23,13 @@
  h2 *{
     font-size: 48px;
  }
+ h3 *{
+    font-size: 24px;
+ }
 /* general tag end */
 
 /* Banner part start */
- .container .banner{
+    .container .banner{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +60,7 @@ padding: 10px;
 /* Categories part start */
 
  #categories{
-    padding: 100px 0px;
+    margin: 100px 0px;
 }
  .container-content{
    text-align: center;
@@ -100,13 +100,12 @@ padding: 10px;
 /* Midnight part Start */
 
     #midnight{
-        padding: 100px 0px;
+        margin: 100px 0px;
     }
     .midnight{
         background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 0px 100px;
+        background-size: contain;
+        background-repeat: round;
         border-top-right-radius: 10px;
         border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
@@ -144,7 +143,6 @@ font-weight: 700;
 text-transform: uppercase;
 border: none;
 border-radius: 10px;
-padding: 16px 32px;
 }
 .midnight-content .midnight-two img{
     padding: 50px;
@@ -155,13 +153,13 @@ padding: 16px 32px;
 /* Location part Start */
 
 #location{
-    
+    margin-top: 100px;
 }
 
 .location-bag{
     background-color: pink;
-    padding: 100px 100px 100px 100px;
     border-radius: 10px;
+    padding: 150px 0px;
 }
 .location-content{
     margin: 0 auto;
@@ -191,13 +189,11 @@ text-transform: capitalize;
 .comingsoon-content{
     background-color: #fbad50;
     display: flex;
-    padding: 100px 0px;
-    justify-content: space-between;
 }
 .comingsoon-first-col{
-    
-}
-.comingsoon-first-col .coming title{
+    margin: 50px auto;
+} 
+.coming title h3{
 color: #F00;
 text-align: center;
 font-family: Inter;
@@ -221,6 +217,9 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 160% */
+}
+.comingsoon-second-content .coming-border{
+    
 }
 
 
