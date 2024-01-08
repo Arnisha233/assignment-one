@@ -253,18 +253,69 @@ line-height: 32px;
 /* Portfolio part start */
 
 #portfolio{
-    margin: 100px;
+    margin-top: 100px;
 }
-
+.container-two{
+    max-width: 1400px;
+  margin: 0 auto;
+}
 .portfolio-content{
-text-align: center;
 background-color: #fbad50;
 }
 .portfolio-text{
-
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.portfolio-heading{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 16px;
+}
+.portfolio-par{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width: 896px;
+margin-top: 22px;
 }
 .portfolio-img{
-    display: flex;
+    margin-top: 45px;
+}
+.portfolio-col-one .images{
+    text-align: center;
+}
+.one{
+    margin: 0px 15px 15px 0px;
+}
+.two{
+    margin: 0px 15px 15px 0px;
+}
+.three{
+    margin: 0px 0px 15px 0px;
+}
+.portfolio-col-two{
+    text-align: center;
+}
+.col-two-one{
+    margin: 0px 15px 0px 0px;
+}
+.col-two-two{
+    margin: 0px 15px 0px 0px;
+}
+.col-two-three{
+    margin: 0px 15px 0px 0px;
 }
 
 /* Portfolio part End */
