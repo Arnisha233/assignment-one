@@ -264,6 +264,7 @@ margin-top: 16px;
 .holiday-text{
     text-align: center;
     position: absolute;
+    margin: 0px 150px;
 }
 .holiday-title{
 color: #070211;
