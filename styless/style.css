@@ -164,17 +164,21 @@ border-radius: 10px;
     margin: 0 auto;
     text-align: center;
     font-family: 'Inter', sans-serif;
+    font-size: 32px;
 }
 .location-content .location-par{
 text-align: center;
-font-size: 25px;
+
 font-weight: 600;
 text-transform: capitalize;
 }
-.location-content  span{
+.location-content  .adress{
     color: #F00;
+    font-size: 32px;
 }
-
+.submit{
+font-size: 20px;
+}
 /* Location part End */
 
 /* coming soon part start */
@@ -254,6 +258,64 @@ margin-top: 16px;
 
 /* Holiday part start */
 
+#holiday{
+    margin-top: 120px;
+}
+.holiday-text{
+    text-align: center;
+    position: absolute;
+}
+.holiday-title{
+color: #070211;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.holiday-title-two{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-top: 10px;
+}
+span{
+color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.holiday-par{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+margin: 0 auto;
+width: 1068px;
+margin-top: 28px;
+}
+.img-coloum{
+    display: flex;
+}
+.img-one img{
+    position: relative;
+    top: 35%;
+}
+.img-two{
+    position:relative;
+    top: 55%
+}
+.img-three{
+    margin: 0px 215px;
+}
 /* Holiday part start */
 
 /* Portfolio part start */
@@ -328,7 +390,7 @@ margin-top: 22px;
 
 /*  subscribe part start */
 #subscribe{
-    margin: 100px;
+    margin: 120px;
 }
 
 .container {
@@ -399,8 +461,9 @@ button{
 
 footer{
     background: #070211;
-        padding: 100px 150px;
-      }
+    padding: 100px 150px;
+    margin-top: 120px;
+ }
 
 .footer-content{
     display: flex;
@@ -492,9 +555,15 @@ font-family: 'Inter', sans-serif;
 margin-top: 25px;
 
 }
-
-hr{
-    background: rgba(255, 255, 255, 0.15);
+.footer-last-info a{
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-family: 'Inter', sans-serif;
+margin-top: 25px;
+text-decoration: none;
 }
 
 /* footer part End */
