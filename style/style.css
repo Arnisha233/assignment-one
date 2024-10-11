@@ -250,7 +250,7 @@ header {
   margin-top: 8px;
   margin-bottom: 24px;
 }
-.skill-one a {
+.skill-one .link-one {
   color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 16px;
@@ -265,6 +265,15 @@ header {
   border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
 }
+.link {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
 .skill-three {
   width: 364px;
   padding: 40px;
@@ -272,6 +281,26 @@ header {
   background: rgba(255, 223, 0, 0.05);
 }
 /* target section end */
+
+/* next target section start */
+.next-target {
+  margin-top: 100px;
+}
+.next-target-skills {
+  margin-top: 48px;
+}
+.reactjs {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  gap: 32px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+  margin-top: 24px;
+}
+/* next target section end */
 
 /* support section start */
 .support-section {
@@ -348,17 +377,50 @@ form {
 /* support section  end */
 
 /* footer section start */
-.footer {
+#footer {
   margin-top: 80px;
-  display: flex;
+}
+.footer {
   width: 1440px;
   padding: 32px 150px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
   margin: 0 auto;
-  gap: 32px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-social {
+  display: flex;
+  gap: 24px;
+}
+.footer-title {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.one {
+  width: 36px;
+  height: 36px;
+  color: #00b2ff;
+}
+.fa-brands {
+  font-size: 30px;
+  gap: 30px;
+}
+.two {
+  width: 36px;
+  height: 36px;
+  color: #161614;
+}
+.three {
+  width: 36px;
+  height: 36px;
+  color: #2489be;
 }
 /* footer section end */
