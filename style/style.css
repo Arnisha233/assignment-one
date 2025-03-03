@@ -8,30 +8,30 @@
 }
 /* shared style start */
 .content-width {
-  max-width: 1140px;
+  max-width: 89%;
   margin: 0 auto;
 }
 .content-title {
   color: #0d1321;
   text-align: center;
   font-family: "Azeret Mono";
-  font-size: 32px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  padding: 20px 0px;
 }
 .content-description {
   color: #0d1321;
   text-align: center;
   font-family: "Azeret Mono";
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 24px;
   opacity: 0.7;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  margin-top: 24px;
 }
 /* shared style end */
 
@@ -47,26 +47,27 @@ header {
 .navbar-logo {
   color: #0d1321;
   font-family: "Azeret Mono";
-  font-size: 28px;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 .navbar-btn {
   color: #0d1321;
   text-align: center;
   font-family: "Azeret Mono";
-  font-size: 20px;
+  font-size: 1.113rem;
   font-weight: 600;
   display: inline-flex;
-  padding: 17px 24px;
+  padding: 0.946rem 1.335rem;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  border-radius: 0.445rem;
 }
 /* navbar end */
 
 /* banner section start */
 .banner {
-  width: 1440px;
+  width: 95%;
   height: 652px;
   margin: 0 auto;
   background-image: url("../assets/hero-bg.png");
@@ -74,23 +75,27 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .banner-content {
-  width: 998px;
+  width: 70%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 26px 221px 45px 221px;
+  /* margin: 26px 221px 45px 221px; */
   gap: 32px;
 }
 .banner-title {
   color: #0d1321;
   text-align: center;
   font-family: "Azeret Mono";
-  font-size: 48px;
+  font-size: 2.13rem;
   font-weight: 800;
-  line-height: 68px;
+  line-height: 47px;
 }
 .banner-btn-content {
   display: flex;
@@ -106,7 +111,7 @@ header {
   color: #fff;
   text-align: center;
   font-family: "Azeret Mono";
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
 }
@@ -120,17 +125,23 @@ header {
   background: rgba(13, 19, 33, 0.02);
 }
 .web-development-container {
-  width: 946px;
-  background-color: #fff;
-  padding: 10px 30px;
+  width: 100%;
+  /* background-color: #fff; */
+  /* padding: 10px 30px; */
+  margin: 0 auto;
 }
 .web-development-content {
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
 }
 .web-development-part {
+  background-color: #fff;
+  margin: 40px 0px;
   display: flex;
-  padding: 48px;
+  /* padding: 48px; */
   gap: 32px;
+}
+.web-development-text {
+  width: 60%;
 }
 .web-development-text .title {
   color: rgba(13, 19, 33, 0.7);
@@ -148,7 +159,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  width: 468px;
+  width: 100%;
   margin-top: 16px;
 }
 .web-development-text .text-btn button {
@@ -165,24 +176,23 @@ header {
   text-decoration: none;
 }
 .web-development-img {
-  width: 274.169px;
-  height: 240px;
+  width: 40%;
+}
+.web-development-img img {
+  width: 100%;
+  height: 100%;
 }
 .web-development-part-second {
   display: flex;
-  padding: 48px;
   gap: 32px;
-  flex-direction: column;
   flex-direction: row-reverse;
-  margin-top: 48px;
-  margin-bottom: 48px;
 }
 /* web development section end */
 
 /* my inspiration start */
 .inspiration {
   margin-top: 90px;
-  min-height: 500pxs;
+  min-height: 500px;
 }
 .inspiration-video {
   margin-top: 48px;
@@ -213,6 +223,7 @@ header {
 }
 .target-skills {
   display: flex;
+  justify-content: center;
   gap: 24px;
   margin-top: 48px;
 }
@@ -372,7 +383,7 @@ form {
   margin-top: 80px;
 }
 .footer {
-  width: 1440px;
+  width: 95%;
   padding: 32px 150px;
   margin: 0 auto;
   border-radius: 16px;
@@ -415,3 +426,274 @@ form {
   color: #2489be;
 }
 /* footer section end */
+
+/* mobile responsive start */
+@media screen and (max-width: 600px) {
+  /* navbar start */
+  .navbar-logo {
+    font-size: 1.2rem;
+  }
+  .navbar-btn {
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+  }
+  /* navbar end */
+  /* banner section start */
+  .banner {
+    width: 95%;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 26px 221px 45px 221px; */
+    gap: 32px;
+  }
+  .banner-content img {
+    width: 100px;
+    height: 100px;
+  }
+  .banner-title {
+    color: #0d1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 47px;
+  }
+  .banner-btn-content {
+    display: flex;
+    padding: 21px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #0d1321;
+  }
+  .banner-btn-content .banner-btn {
+    font-size: 1rem;
+  }
+  .content-description {
+    width: 100%;
+    margin-top: 0px;
+    line-height: 26px;
+  }
+  /* banner section end */
+  /* web development section start */
+  .content-title {
+    font-size: 1.3rem;
+  }
+  .web-development-section {
+    margin-top: 74px;
+    padding: 10px 10px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+  }
+  .web-development-container {
+    width: 100%;
+    background-color: #fff;
+    /* padding: 10px 30px; */
+    margin: 0 auto;
+  }
+  .web-development-content {
+    /* margin-bottom: 48px; */
+  }
+  .web-development-part {
+    background-color: #fff;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 48px; */
+    gap: 32px;
+  }
+  .web-development-text {
+    width: 100%;
+  }
+  .web-development-img {
+    width: 100%;
+  }
+  .web-development-part-second {
+    display: flex;
+    /* padding: 48px; */
+    gap: 32px;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    /* margin-top: 48px;
+    margin-bottom: 48px; */
+  }
+  /* wev development section end */
+
+  /* inspiration start */
+  .inspiration-video {
+    margin-top: 48px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+  }
+  .inspiration-video .video {
+    width: 100%;
+    height: 100%;
+    align-self: stretch;
+    border-radius: 16px;
+    background: url(<path-to-image>) lightgray 0px -5.621px / 100% 110.681% no-repeat;
+  }
+  /* inspiration end */
+
+  /* target section start */
+  .target-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+  }
+  /* target section end */
+
+  /* support section start */
+  .support-section {
+    margin-top: 49px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 16px;
+  }
+  .support-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+  }
+  .support-content .support-title {
+    color: #fff;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .support-content .support-description {
+    color: #fff;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 90%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+  .support-content .input {
+    display: flex;
+    width: 100%;
+    padding: 19px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #fff;
+    padding: 19px 20px;
+    outline: none;
+  }
+  .support-btn {
+    padding: 17px 20px;
+    color: #0d1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+  }
+  .support-nav {
+    margin-top: 80px;
+  }
+  /* support section  end */
+
+  /* footer section start */
+  #footer {
+    margin-top: 80px;
+  }
+  .footer {
+    width: 95%;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .footer-title {
+    color: #0d1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 30px 0px;
+  }
+  .one {
+    width: 36px;
+    height: 36px;
+    color: #00b2ff;
+  }
+  .fa-brands {
+    font-size: 30px;
+    gap: 30px;
+  }
+  .two {
+    width: 36px;
+    height: 36px;
+    color: #161614;
+  }
+  .three {
+    width: 36px;
+    height: 36px;
+    color: #2489be;
+  }
+  /* footer section end */
+}
+/* mobile responsive end */
