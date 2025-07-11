@@ -4,9 +4,18 @@
   margin: 0;
   padding: 0;
 }
+/* shared style start */
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+.btn:hover {
+  background-color: #923045;
+  color: orange;
+}
+/* shared style end */
+body {
+  background-color: #f5f8ff;
 }
 /* nav bar start */
 header {
@@ -19,7 +28,6 @@ header {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  border: 3px solid red;
 }
 .nav-bar h2 {
   color: #4e47ff;
@@ -50,7 +58,6 @@ header {
   justify-content: center;
   align-items: center;
   height: 400px;
-  border: 3px solid green;
 }
 .banner-section h1 {
   color: #252432;
@@ -58,10 +65,9 @@ header {
   font-family: "Raleway", sans-serif;
   font-size: 60px;
   font-weight: 700;
-  border: 3px solid red;
+  width: 80%;
 }
 .banner-section button {
-  border: 4px solid orange;
   margin-top: 25px;
   color: #fff;
   text-align: center;
@@ -73,6 +79,7 @@ header {
   background: #4e47ff;
   padding: 12px 36px;
   border: none;
+  cursor: pointer;
 }
 /* banner section end */
 
@@ -81,14 +88,12 @@ header {
   margin: 100px 0;
   display: flex;
   justify-content: space-between;
-  border: 3px solid red;
 }
 .action-content {
   width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 3px solid green;
 }
 .action-content h2 {
   color: #252432;
@@ -97,7 +102,6 @@ header {
   font-weight: 700;
 }
 .action-content p {
-  border: 3px solid red;
   color: rgba(37, 36, 50, 0.5);
   font-family: "Raleway", sans-serif;
   font-size: 24px;
@@ -116,13 +120,14 @@ header {
   border: none;
   background: #4e47ff;
   padding: 12px 36px;
+  cursor: pointer;
 }
 .action-img {
   width: 45%;
-  border: 3px solid orange;
 }
 .action-img img {
   width: 100%;
+  border-radius: 30px;
 }
 /* actin section end */
 
@@ -130,7 +135,8 @@ header {
 .productive {
   margin-bottom: 50px;
   padding: 50px 0;
-  border: 3px solid green;
+  background-color: #4e47ff1a;
+  border-radius: 24px;
 }
 .productive-heading {
   color: #252432;
@@ -145,13 +151,9 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  border: 3px solid red;
-}
-.productive-content {
-  border: 3px solid green;
 }
 .productive-content h2 {
-  color: var(--Primary-Color, #4e47ff);
+  color: #4e47ff;
   font-family: "Inter", sans-serif;
   font-size: 80px;
   font-weight: 700;
@@ -168,7 +170,6 @@ header {
 /* review section start */
 .review {
   margin: 100px 0;
-  border: 3px solid red;
 }
 .review-section {
   margin: 50px 0;
@@ -194,7 +195,7 @@ header {
 }
 .review-content .review-title {
   color: rgb(30, 30, 30);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 120%;
@@ -222,18 +223,16 @@ header {
   height: 40px;
 }
 .review-users-info h5 {
-  /* Body Strong */
   color: rgb(117, 117, 117);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 140%;
   text-align: left;
 }
 .review-users-info p {
-  /* Body Strong */
   color: rgb(117, 117, 117);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 140%;
@@ -241,3 +240,163 @@ header {
   text-align: left;
 }
 /* review section end */
+
+/* focus section start */
+.focus-section {
+  margin-bottom: 50px;
+  padding: 70px 150px;
+}
+.focus-section .focus-content {
+  text-align: center;
+}
+.focus-section .focus-content h2 {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.focus-section .focus-content p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 20px 0;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.focus-content button {
+  color: #fff;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  border-radius: 10px;
+  background: #4e47ff;
+  padding: 12px 36px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.focus-section .focus-content img {
+  border-radius: 48px;
+}
+/* focus section end */
+
+/* newsletter section start */
+.newsletter-content {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter-content .newsletter-text {
+  width: 50%;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+}
+.newsletter-content .newsletter-form {
+  width: 50%;
+}
+.newsletter-form .input {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.newsletter-form .input .input-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 90%;
+  border: 1px solid #d6dded;
+}
+.newsletter-content .newsletter-form .input .textarea {
+  width: 90%;
+  height: 95px;
+  padding: 20px 25px;
+  margin-top: 10px;
+  border: 1px solid #d6dded;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.input button {
+  color: #fff;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  border-radius: 10px;
+  background: #4e47ff;
+  padding: 12px 36px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 19px;
+}
+/* newsletter section end */
+
+/* fotter section start */
+.footter-content {
+  margin-bottom: 50px;
+  padding: 90px 0;
+}
+.footter-content h2 {
+  color: #4e47ff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.footter-content p {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: #8987a1;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.footter-content .list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+.footter-content .list li {
+  list-style: none;
+}
+.footter-content .list a {
+  text-decoration: none;
+  color: #8987a1;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+/* fotter section end */
